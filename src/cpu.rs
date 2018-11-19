@@ -1,3 +1,5 @@
+use keyboard::Keypad;
+
 pub struct Cpu {
     /* The program counter, 16 bit unsigned integer, used to store the currently
      * executing address.*/
